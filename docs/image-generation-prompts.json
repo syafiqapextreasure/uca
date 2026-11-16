@@ -1,0 +1,347 @@
+[
+  {
+    "key": "hero-home",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png",
+      "outputs/uca-website-v2/sources/UCA-Original-Logo.png"
+    ],
+    "prompt": "Use case: background-extraction. Image1 is the approved website design. Extract and reconstruct ONLY its top hero photograph into a standalone ultra-high quality wide landscape 3:1 website hero background, ideally 3072x1024. Same two Malaysian technicians in white hard hats, navy workwear, one pointing to boiler pressure gauge, exact composition with technicians in right half and dim industrial factory background at left. Image2 is the exact logo on visible shirt patches. Remove ALL website navigation, text, buttons, rules, cards and footer. Preserve the original photographic subject lighting and navy teal color grade. No added text except tiny original patch artwork. Left 40 percent dark and subtly detailed for live HTML text. Extend photo naturally to full canvas. Photorealistic, crisp detail, not a screenshot.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-875b010b-03e1-454c-9178-519ce285778a.png",
+    "web_file": "hero-home.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1313148,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-grade-1",
+    "refs": [
+      "outputs/uca-website-v2/pages/03-course-grade-1.png",
+      "outputs/uca-website-v2/sources/UCA-Original-Logo.png"
+    ],
+    "prompt": "Use case: background-extraction. Extract/reconstruct ONLY the hero photograph from Image1 approved webpage. Output standalone panoramic 3:1 photographic asset ideally3072x1024. Preserve single Malaysian technician with white hardhat and clipboard beside huge circular gray industrial boiler in right half. Dark navy softly detailed pipework at left40percent for live HTML title. Image2 is original red UCA logo, visible uniform patch must match. Remove all website text, navigation, icons, buttons, cards, rules. High quality realistic industrial training photograph with teal/navy grade, no UI screenshot.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-a630b2fb-8b62-437d-9c09-2c598b154a9a.png",
+    "web_file": "hero-grade-1.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1297686,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "factory-cta",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: background-extraction. Extract/reconstruct ONLY the dark factory interior photograph in the bottom CTA section of supplied approved website. Standalone panoramic 3:1 image ideally3072x1024. Empty industrial boiler house, long perspective corridor with metal pipes and columns, subtle cyan lights and reflections on polished concrete floor, moody deep navy atmosphere. Preserve visual style and composition from bottom CTA. Remove ALL text, logo, buttons, UI, footer and people. Pure photographic background high-quality crisp architectural industrial details. Left half dark for live HTML text.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-9f58caf5-e0bb-42d6-8e58-0640c7488062.png",
+    "web_file": "factory-cta.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1412870,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-grade-2",
+    "refs": [
+      "outputs/uca-website-v2/pages/04-course-grade-2.png"
+    ],
+    "prompt": "Use case: background-extraction. Extract/reconstruct ONLY the hero background photograph of supplied approved website. Standalone high-quality panoramic 3:1 photograph, ideally3072x1024. A single Malaysian boiler technician seen from behind wearing white hard hat, black hearing protection and navy reflective workwear operates a blue industrial boiler control console. Technician in rightmost third, large blue boiler behind, dark blurred metal pipes at left40percent for live website title. Preserve source scene composition and cyan/navy grade. Remove ALL UI,text,navigation,labels,buttons,borders. Photorealistic detail.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-b64935b5-5fe3-4f37-b489-39694d7b27ce.png",
+    "web_file": "hero-grade-2.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1431170,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "boiler-blueprint",
+    "refs": [
+      "outputs/uca-website-v2/pages/13-plkk-past-intake.png"
+    ],
+    "prompt": "Use case: background-extraction. Extract/reconstruct ONLY the technical cyan line boiler illustration from hero of supplied approved webpage. Panoramic3:1 decorative website background ideally3072x1024. Keep detailed cylindrical steam boiler and pipework on RIGHT half, crisp luminous cyan technical linework, midnight navy background with faint architectural drawing grid. Left half empty dark navy for live heading. Absolutely no text, numbers, logos, UI, buttons, footer or labels. Elegant technical illustration matching original closely.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-e3425127-ed96-46f9-92ce-88688b1d4b8b.png",
+    "web_file": "boiler-blueprint.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 987342,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "electrician",
+    "refs": [
+      "outputs/uca-website-v2/pages/05-grant-programmes.png"
+    ],
+    "prompt": "Use case: background-extraction. Extract/reconstruct ONLY the electrician photo from the Elektrik card in supplied approved webpage. Standalone landscape3:2 photograph1536x1024 high quality. Malaysian male electrician in white hardhat and navy reflective workwear, protective glasses, hands in protective gloves working on an industrial electrical control cabinet. Preserve source composition viewed from behind-left, cabinet on right. Realistic lighting, navy/cyan industrial color grading. NO text, captions, logos, borders, UI. Full photographic canvas.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-ac7d858c-a55a-4560-bda0-e17e4e369d6e.png",
+    "web_file": "electrician.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1503218,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "solar",
+    "subject": "Solar card: Malaysian technician white hardhat, orange safety harness and navy shirt inspecting blue solar panels on a rooftop under bright blue sky. Landscape3:2, source scene preserved.",
+    "refs": [
+      "outputs/uca-website-v2/pages/05-grant-programmes.png"
+    ],
+    "prompt": "Use case: background-extraction. Supplied image is approved webpage. Extract/reconstruct ONLY the corresponding photograph as a standalone high-quality1536x1024 website asset. Solar card: Malaysian technician white hardhat, orange safety harness and navy shirt inspecting blue solar panels on a rooftop under bright blue sky. Landscape3:2, source scene preserved. Preserve matching photo composition and professional navy/cyan color grade. Remove ALL UI, text, labels, logos, borders and cards. Output pure photograph, not webpage screenshot.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-97814a3d-1e12-43e7-a1dc-76b99d8369fa.png",
+    "web_file": "solar.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1454406,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "welding",
+    "subject": "Kimpalan card: close-up welder in full dark welding face shield, navy protective clothing and gloves, vivid orange sparks from steel arc welding, realistic workshop. Landscape3:2.",
+    "refs": [
+      "outputs/uca-website-v2/pages/05-grant-programmes.png"
+    ],
+    "prompt": "Use case: background-extraction. Supplied image is approved webpage. Extract/reconstruct ONLY the corresponding photograph as a standalone high-quality1536x1024 website asset. Kimpalan card: close-up welder in full dark welding face shield, navy protective clothing and gloves, vivid orange sparks from steel arc welding, realistic workshop. Landscape3:2. Preserve matching photo composition and professional navy/cyan color grade. Remove ALL UI, text, labels, logos, borders and cards. Output pure photograph, not webpage screenshot.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-65164420-777a-4d85-a358-5359c3443b56.png",
+    "web_file": "welding.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1697280,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "plastic-welding",
+    "subject": "Kimpalan Plastik card: Malaysian technician wearing white hardhat, protective glasses and navy workwear operating green plastic pipe fusion machine on workbench. Landscape3:2.",
+    "refs": [
+      "outputs/uca-website-v2/pages/05-grant-programmes.png"
+    ],
+    "prompt": "Use case: background-extraction. Supplied image is approved webpage. Extract/reconstruct ONLY the corresponding photograph as a standalone high-quality1536x1024 website asset. Kimpalan Plastik card: Malaysian technician wearing white hardhat, protective glasses and navy workwear operating green plastic pipe fusion machine on workbench. Landscape3:2. Preserve matching photo composition and professional navy/cyan color grade. Remove ALL UI, text, labels, logos, borders and cards. Output pure photograph, not webpage screenshot.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-76894a9c-72c0-4cd3-bed7-fe8fae95c8c9.png",
+    "web_file": "plastic-welding.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1406742,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "scaffolding",
+    "subject": "Scaffolding card: construction worker wearing white hardhat, navy clothing, orange safety harness on metal scaffolding against blue sky. Landscape3:2.",
+    "refs": [
+      "outputs/uca-website-v2/pages/05-grant-programmes.png"
+    ],
+    "prompt": "Use case: background-extraction. Supplied image is approved webpage. Extract/reconstruct ONLY the corresponding photograph as a standalone high-quality1536x1024 website asset. Scaffolding card: construction worker wearing white hardhat, navy clothing, orange safety harness on metal scaffolding against blue sky. Landscape3:2. Preserve matching photo composition and professional navy/cyan color grade. Remove ALL UI, text, labels, logos, borders and cards. Output pure photograph, not webpage screenshot.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-549f292c-a3e8-4e1b-ac87-8e84008f3633.png",
+    "web_file": "scaffolding.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1554518,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-courses",
+    "scene": "Two Malaysian training technicians in white hardhats and navy reflective workwear studying a metal lathe in industrial workshop, tutor on right points at tooling, student observes. Subjects on right half; darker factory on left.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. The supplied approved website is COLOR AND PHOTO STYLE REFERENCE only. Create a distinctive new text-free website hero background matching the navy/teal industrial style. Panoramic3:1 ideally3072x1024. Two Malaysian training technicians in white hardhats and navy reflective workwear studying a metal lathe in industrial workshop, tutor on right points at tooling, student observes. Subjects on right half; darker factory on left. High quality photographic realism. Leave left40percent subtly detailed dark navy space for live text. No text,logos,watermarks,buttons,website UI or frame. This is illustrative training imagery, not an actual dated event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-58260073-d98c-4061-823f-0a1ecb1b4f69.png",
+    "web_file": "hero-courses.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1333638,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-grants",
+    "scene": "Wide Malaysian technical training workshop with orderly electrical training benches and distant trainees in white hardhats, camera low along row of equipment, distinct from boiler scenes. Detailed subjects on right; left dark.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. The supplied approved website is COLOR AND PHOTO STYLE REFERENCE only. Create a distinctive new text-free website hero background matching the navy/teal industrial style. Panoramic3:1 ideally3072x1024. Wide Malaysian technical training workshop with orderly electrical training benches and distant trainees in white hardhats, camera low along row of equipment, distinct from boiler scenes. Detailed subjects on right; left dark. High quality photographic realism. Leave left40percent subtly detailed dark navy space for live text. No text,logos,watermarks,buttons,website UI or frame. This is illustrative training imagery, not an actual dated event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-63117a67-97f0-4b56-b537-b51d7e86c4db.png",
+    "web_file": "hero-grants.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1355048,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-schedule",
+    "scene": "Close-up industrial steam boiler pressure gauge and safety valve on right side, long silver pipework recedes into teal factory hall, no people. Left half dark blurred factory.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. The supplied approved website is COLOR AND PHOTO STYLE REFERENCE only. Create a distinctive new text-free website hero background matching the navy/teal industrial style. Panoramic3:1 ideally3072x1024. Close-up industrial steam boiler pressure gauge and safety valve on right side, long silver pipework recedes into teal factory hall, no people. Left half dark blurred factory. High quality photographic realism. Leave left40percent subtly detailed dark navy space for live text. No text,logos,watermarks,buttons,website UI or frame. This is illustrative training imagery, not an actual dated event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-1b71f477-65f8-43c3-a6e1-5398432ea0e7.png",
+    "web_file": "hero-schedule.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1408074,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-intake-1",
+    "scene": "Wide architectural view of large gray steam boiler with yellow pipework inside modern training workshop, no people. Circular front boiler on right, left half darker pipework.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. The supplied approved website is COLOR AND PHOTO STYLE REFERENCE only. Create a distinctive new text-free website hero background matching the navy/teal industrial style. Panoramic3:1 ideally3072x1024. Wide architectural view of large gray steam boiler with yellow pipework inside modern training workshop, no people. Circular front boiler on right, left half darker pipework. High quality photographic realism. Leave left40percent subtly detailed dark navy space for live text. No text,logos,watermarks,buttons,website UI or frame. This is illustrative training imagery, not an actual dated event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-d60d6d6b-fef8-4a04-b36b-c052e412b155.png",
+    "web_file": "hero-intake-1.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1407716,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "gallery-group-1-enhanced",
+    "file": "ti-7262155588639968514-2.jpeg",
+    "refs": [
+      "outputs/uca-website-v2/sources/social-archive/ti-7262155588639968514-2.jpeg"
+    ],
+    "prompt": "Use case: identity-preserve. Carefully enhance this actual historical photograph for professional website gallery. ONLY improve exposure, white balance, subtle sharpness and compression artifacts. Preserve every person's exact face, identity, expression, pose, clothing, skin texture, count and location. Preserve all original certificates, projection text, logos and objects unchanged; do not invent readable certificate text. Keep exact original composition and scene, no added or removed people, no beauty retouching, no cinematic recoloring. High quality natural faithful restoration. Original photo is documentary evidence, not inspiration. Output same aspect ratio, at least original resolution.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-5813408c-9c3b-4117-83ac-154f517dc8c6.png",
+    "web_file": "gallery-group-1-enhanced.webp",
+    "width": 1449,
+    "height": 1085,
+    "bytes": 1656210,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "gallery-group-2-enhanced",
+    "file": "ti-7262155588639968514-3.jpeg",
+    "refs": [
+      "outputs/uca-website-v2/sources/social-archive/ti-7262155588639968514-3.jpeg"
+    ],
+    "prompt": "Use case: identity-preserve. Carefully enhance this actual historical photograph for professional website gallery. ONLY improve exposure, white balance, subtle sharpness and compression artifacts. Preserve every person's exact face, identity, expression, pose, clothing, skin texture, count and location. Preserve all original certificates, projection text, logos and objects unchanged; do not invent readable certificate text. Keep exact original composition and scene, no added or removed people, no beauty retouching, no cinematic recoloring. High quality natural faithful restoration. Original photo is documentary evidence, not inspiration. Output same aspect ratio, at least original resolution.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-0ab426de-9f2d-479b-b087-5652dd22063b.png",
+    "web_file": "gallery-group-2-enhanced.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1741626,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "gallery-meeting-enhanced",
+    "file": "fa-121293234386597-1.jpg",
+    "refs": [
+      "outputs/uca-website-v2/sources/social-archive/fa-121293234386597-1.jpg"
+    ],
+    "prompt": "Use case: identity-preserve. Carefully enhance this actual historical photograph for professional website gallery. ONLY improve exposure, white balance, subtle sharpness and compression artifacts. Preserve every person's exact face, identity, expression, pose, clothing, skin texture, count and location. Preserve all original certificates, projection text, logos and objects unchanged; do not invent readable certificate text. Keep exact original composition and scene, no added or removed people, no beauty retouching, no cinematic recoloring. High quality natural faithful restoration. Original photo is documentary evidence, not inspiration. Output same aspect ratio, at least original resolution.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-212b0b1a-9447-4c7f-8f8d-880303cf2238.png",
+    "web_file": "gallery-meeting-enhanced.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1527054,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-intake-2",
+    "scene": "Industrial boiler control panel and rows of colored buttons in foreground right, blue horizontal steam boiler with pipework further back; no people. Distinct oblique close angle.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Supplied website is COLOR AND PHOTO STYLE REFERENCE only. Generate unique high-quality text-free panoramic3:1 hero photograph ideally3072x1024. Industrial boiler control panel and rows of colored buttons in foreground right, blue horizontal steam boiler with pipework further back; no people. Distinct oblique close angle. Match midnight navy and subtle cyan industrial atmosphere. Left40percent dark softly detailed space for website HTML title. No text, labels, logos, watermarks, fake credentials, website UI or buttons. Illustrative stock-style photograph, no claim of actual facility or event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-ffb973af-2f9f-4558-8492-08f05a7b3acc.png",
+    "web_file": "hero-intake-2.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1410926,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-partnerships",
+    "scene": "Wide orderly industrial skills training hall with machine tools and overhead steel beams, no people, warm daylight through high windows, machinery concentrated right.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Supplied website is COLOR AND PHOTO STYLE REFERENCE only. Generate unique high-quality text-free panoramic3:1 hero photograph ideally3072x1024. Wide orderly industrial skills training hall with machine tools and overhead steel beams, no people, warm daylight through high windows, machinery concentrated right. Match midnight navy and subtle cyan industrial atmosphere. Left40percent dark softly detailed space for website HTML title. No text, labels, logos, watermarks, fake credentials, website UI or buttons. Illustrative stock-style photograph, no claim of actual facility or event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-c06f2104-2ef5-4633-95d9-af9630da4770.png",
+    "web_file": "hero-partnerships.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1632176,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-credentials",
+    "scene": "Close-up white hardhat, navy protective gloves, closed blank dark training binder and steel caliper on industrial workshop desk at right, blurred boiler pipes behind. No readable documents or fake certificates.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Supplied website is COLOR AND PHOTO STYLE REFERENCE only. Generate unique high-quality text-free panoramic3:1 hero photograph ideally3072x1024. Close-up white hardhat, navy protective gloves, closed blank dark training binder and steel caliper on industrial workshop desk at right, blurred boiler pipes behind. No readable documents or fake certificates. Match midnight navy and subtle cyan industrial atmosphere. Left40percent dark softly detailed space for website HTML title. No text, labels, logos, watermarks, fake credentials, website UI or buttons. Illustrative stock-style photograph, no claim of actual facility or event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-ae6283cd-70ca-4de2-a812-5ece1dcdb043.png",
+    "web_file": "hero-credentials.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1294764,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-contact",
+    "scene": "Approachable Malaysian male technical trainer in navy shirt and white hardhat, glasses, holding a plain clipboard at right side of clean industrial workshop, soft smile toward camera. No logos.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Supplied website is COLOR AND PHOTO STYLE REFERENCE only. Generate unique high-quality text-free panoramic3:1 hero photograph ideally3072x1024. Approachable Malaysian male technical trainer in navy shirt and white hardhat, glasses, holding a plain clipboard at right side of clean industrial workshop, soft smile toward camera. No logos. Match midnight navy and subtle cyan industrial atmosphere. Left40percent dark softly detailed space for website HTML title. No text, labels, logos, watermarks, fake credentials, website UI or buttons. Illustrative stock-style photograph, no claim of actual facility or event.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-b1458cb6-041a-43dc-bc7a-f3dc84693000.png",
+    "web_file": "hero-contact.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1262636,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-privacy",
+    "scene": "Abstract close-up of neatly arranged steel pipe fittings and a closed navy technical folder on right, gentle cyan reflections, deep industrial shadows, no people, no symbols or text.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Supplied website is style reference only. Generate unique high-quality panoramic3:1 text-free website hero background. Abstract close-up of neatly arranged steel pipe fittings and a closed navy technical folder on right, gentle cyan reflections, deep industrial shadows, no people, no symbols or text. Keep left40percent dark navy empty enough for live HTML title; texture subtle not blank. Match approved navy/cyan industrial site. No website screenshot, UI, logos, labels, typography, numbers or buttons.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-f8cb4eb0-fa5f-4b4d-bad4-171fd0e6b114.png",
+    "web_file": "hero-privacy.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1538990,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-handoff",
+    "scene": "Close-up navy work gloves resting beside an unlit black smartphone on a workshop desk at right, dim out-of-focus industrial pipework behind, no people, no text on screen.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Supplied website is style reference only. Generate unique high-quality panoramic3:1 text-free website hero background. Close-up navy work gloves resting beside an unlit black smartphone on a workshop desk at right, dim out-of-focus industrial pipework behind, no people, no text on screen. Keep left40percent dark navy empty enough for live HTML title; texture subtle not blank. Match approved navy/cyan industrial site. No website screenshot, UI, logos, labels, typography, numbers or buttons.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-0f401fa1-2824-4af4-bc85-e38ea2ed54ff.png",
+    "web_file": "hero-handoff.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1265124,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-404",
+    "scene": "Massive circular steel boiler front fills right side, bolted flange, valve wheels, vertically rising steel pipes; no people. Dramatic dark navy photographic rendering with cyan sidelight, like approved error-page industrial background.",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Supplied website is style reference only. Generate unique high-quality panoramic3:1 text-free website hero background. Massive circular steel boiler front fills right side, bolted flange, valve wheels, vertically rising steel pipes; no people. Dramatic dark navy photographic rendering with cyan sidelight, like approved error-page industrial background. Keep left40percent dark navy empty enough for live HTML title; texture subtle not blank. Match approved navy/cyan industrial site. No website screenshot, UI, logos, labels, typography, numbers or buttons.",
+    "generated_path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-c30aa688-5e01-49fb-98b6-66303e605454.png",
+    "web_file": "hero-404.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1390334,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  },
+  {
+    "key": "hero-archive",
+    "refs": [
+      "outputs/uca-website-v2/pages/00-homepage.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Create a standalone text-free high quality panoramic3:1 industrial background matching supplied approved website's midnight navy and cyan photographic style. Unique close-up composition of vertical boiler water sight glass, old brass valves and gray steel steam pipe connections on RIGHT half. Very dim softly detailed pipework left40percent for live HTML archive title. No people, labels, logos, words, buttons, UI or event claims. This is a generic illustrative technical background, not a historical event photograph.",
+    "generated_path": "C:/Users/user/.codex/generated_images/01a1e50b-126c-74d1-9d16-cb375d39e190/exec-d7eb20b6-d3be-45db-9f34-93f6fcca65a8.png",
+    "web_file": "hero-archive.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1363154,
+    "compression": "lossless WebP; decoded RGB verified identical to generated source"
+  }
+]

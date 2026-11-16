@@ -1,0 +1,121 @@
+[
+  {
+    "key": "showcase-outdoor-cohort",
+    "source": "fa-101843996331521-1.jpg",
+    "prompt": "Use case: identity-preserve. Enhance the supplied actual UCA social-media archive photograph for professional website showcase. ONLY improve exposure, natural white balance, compression artifacts and gentle sharpness. Preserve every person's exact identity, face, count, expression, pose, clothing, location; preserve original workshop equipment and scene. Preserve all certificates, logos and signage without inventing readable details. Do not replace faces, beautify, add/remove people, alter history or recolor cinematically. Same full composition/aspect ratio, high-quality realistic documentary photo enhancement. Return photograph only.",
+    "path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-e4d8819a-dbe3-430c-bc60-298ee06baff8.png",
+    "original": "C:\\Users\\user\\Documents\\Codex\\2026-11-16\\https-perodua-zamri-mail-82f-workers\\outputs\\uca-website-v2\\sources\\social-archive\\fa-101843996331521-1.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=101843996331521&set=pb.100095177614032.-2207520000&type=3",
+    "provenance": "Previously collected authentic UCA social archive; additionally enhanced during this revision. Fresh Facebook fetch unavailable.",
+    "event_date": null,
+    "method": "builtin imagegen photo enhancement; compression pixel-identical lossless WebP",
+    "variants": [
+      {
+        "file": "showcase-outdoor-cohort.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 1918864,
+        "lossless": true
+      },
+      {
+        "file": "showcase-outdoor-cohort-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 394422,
+        "lossless": true
+      },
+      {
+        "file": "showcase-outdoor-cohort-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 1551886,
+        "lossless": true
+      }
+    ]
+  },
+  {
+    "key": "showcase-workshop-visit",
+    "source": "fa-121293231053264-1.jpg",
+    "prompt": "Use case: identity-preserve. Enhance the supplied actual UCA social-media archive photograph for professional website showcase. ONLY improve exposure, natural white balance, compression artifacts and gentle sharpness. Preserve every person's exact identity, face, count, expression, pose, clothing, location; preserve original workshop equipment and scene. Preserve all certificates, logos and signage without inventing readable details. Do not replace faces, beautify, add/remove people, alter history or recolor cinematically. Same full composition/aspect ratio, high-quality realistic documentary photo enhancement. Return photograph only.",
+    "path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-6fe18dc7-ccec-4cee-8c1d-992e9cf708d2.png",
+    "original": "C:\\Users\\user\\Documents\\Codex\\2026-11-16\\https-perodua-zamri-mail-82f-workers\\outputs\\uca-website-v2\\sources\\social-archive\\fa-121293231053264-1.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=121293231053264&set=pb.100095177614032.-2207520000&type=3",
+    "provenance": "Previously collected authentic UCA social archive; additionally enhanced during this revision. Fresh Facebook fetch unavailable.",
+    "event_date": null,
+    "method": "builtin imagegen photo enhancement; compression pixel-identical lossless WebP",
+    "variants": [
+      {
+        "file": "showcase-workshop-visit.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 1602006,
+        "lossless": true
+      },
+      {
+        "file": "showcase-workshop-visit-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 337640,
+        "lossless": true
+      },
+      {
+        "file": "showcase-workshop-visit-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 1314360,
+        "lossless": true
+      }
+    ]
+  },
+  {
+    "key": "showcase-technical-discussion",
+    "source": "fa-121293237719930-1.jpg",
+    "prompt": "Use case: identity-preserve. Enhance the supplied actual UCA social-media archive photograph for professional website showcase. ONLY improve exposure, natural white balance, compression artifacts and gentle sharpness. Preserve every person's exact identity, face, count, expression, pose, clothing, location; preserve original workshop equipment and scene. Preserve all certificates, logos and signage without inventing readable details. Do not replace faces, beautify, add/remove people, alter history or recolor cinematically. Same full composition/aspect ratio, high-quality realistic documentary photo enhancement. Return photograph only.",
+    "path": "C:\\Users\\user\\.codex\\generated_images\\01a1e50b-126c-74d1-9d16-cb375d39e190\\exec-57514cca-dba5-475d-862f-24c9d289ff7f.png",
+    "original": "C:\\Users\\user\\Documents\\Codex\\2026-11-16\\https-perodua-zamri-mail-82f-workers\\outputs\\uca-website-v2\\sources\\social-archive\\fa-121293237719930-1.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=121293237719930&set=pb.100095177614032.-2207520000&type=3",
+    "provenance": "Previously collected authentic UCA social archive; additionally enhanced during this revision. Fresh Facebook fetch unavailable.",
+    "event_date": null,
+    "method": "builtin imagegen photo enhancement; compression pixel-identical lossless WebP",
+    "variants": [
+      {
+        "file": "showcase-technical-discussion.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 1558054,
+        "lossless": true
+      },
+      {
+        "file": "showcase-technical-discussion-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 328644,
+        "lossless": true
+      },
+      {
+        "file": "showcase-technical-discussion-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 1272122,
+        "lossless": true
+      }
+    ]
+  },
+  {
+    "file": "partner-adtec.webp",
+    "source": "C:\\Users\\user\\Documents\\Codex\\2026-11-16\\https-perodua-zamri-mail-82f-workers\\outputs\\uca-website-v2\\sources\\social-archive\\fa-112114431971144-1.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=112114431971144&set=pb.100095177614032.-2207520000&type=3",
+    "crop": [
+      35,
+      16,
+      270,
+      128
+    ],
+    "method": "Exact deterministic source-logo extraction; no generative reconstruction",
+    "label": "ADTEC Jerantut — historical MOU identity",
+    "size": [
+      235,
+      112
+    ]
+  }
+]

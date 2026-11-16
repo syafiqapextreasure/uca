@@ -1,0 +1,1 @@
+Updated17November2026: browser restored;21 pages x4 widths captured; all84 overflow/image checks pass. Build and functional browser checks pass. See README.md and verification-results.json. Local Wrangler startup fails spawn EPERM; first Cloudflare runtime validation required.

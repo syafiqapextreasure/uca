@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-17",
+  "browser": {
+    "pages": 21,
+    "widths": [
+      390,
+      768,
+      1440,
+      2560
+    ],
+    "captures": 84,
+    "overflowFailures": 0,
+    "brokenImageFailures": 0
+  },
+  "functionalPassed": [
+    "mobile navigation",
+    "required form fields",
+    "grade-dependent date",
+    "officer destination",
+    "WhatsApp preview",
+    "copy message",
+    "edit preserves draft",
+    "Back/Forward history",
+    "gallery pause/next",
+    "gallery lightbox",
+    "year filter",
+    "type filter"
+  ],
+  "localHTTP": "normal routes200, extensionless redirect, missing route404",
+  "sourceChecks": "21 routes, zero missing local assets/links",
+  "limits": [
+    "Wrangler local runtime spawn EPERM",
+    "Inter visual font approximation; source font unspecified",
+    "Imagegen numeric model not selectable",
+    "Privacy handling terms remain client review draft"
+  ],
+  "googleForm": "Client explicitly reconfirmed same link17November2026"
+}

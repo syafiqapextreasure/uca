@@ -1,0 +1,202 @@
+{
+  "reviewDate": "2026-11-16",
+  "scope": "Research recommendations based on official source pages and supplied UCA v2 requirements. No keyword-volume, ranking, traffic or conversion claims.",
+  "keywordClusters": [
+    {
+      "intent": "Primary local commercial",
+      "priority": 1,
+      "terms": [
+        "kursus boiler Pahang",
+        "kursus boiler Pekan",
+        "kursus operator dandang stim",
+        "kursus boilerman Pahang"
+      ],
+      "routes": [
+        "/",
+        "/kursus"
+      ]
+    },
+    {
+      "intent": "Grade-specific commercial",
+      "priority": 1,
+      "terms": [
+        "kursus operator dandang stim gred 1",
+        "kursus operator dandang stim gred 2",
+        "kursus boiler gred 1",
+        "kursus boiler gred 2",
+        "boilerman grade 1 course Malaysia",
+        "boilerman grade 2 training Malaysia"
+      ],
+      "routes": [
+        "/kursus/boiler/gred-1",
+        "/kursus/boiler/gred-2"
+      ]
+    },
+    {
+      "intent": "Intake and price",
+      "priority": 1,
+      "terms": [
+        "jadual kursus boiler 2026",
+        "kursus boiler Disember 2026",
+        "yuran kursus boiler",
+        "kursus boiler HRD Corp claimable"
+      ],
+      "routes": [
+        "/pengambilan",
+        "/pengambilan/boiler-gred-1-disember-2026",
+        "/pengambilan/boiler-gred-2-disember-2026"
+      ]
+    },
+    {
+      "intent": "Venue and brand",
+      "priority": 2,
+      "terms": [
+        "kursus boiler IKBN Pekan",
+        "kursus boiler Paloh Hinai",
+        "Universal Competency Academy",
+        "UCA kursus boiler"
+      ],
+      "routes": [
+        "/",
+        "/tentang-uca",
+        "/hubungi"
+      ]
+    },
+    {
+      "intent": "Answer-oriented informational",
+      "priority": 2,
+      "terms": [
+        "syarat kursus boiler gred 2",
+        "syarat kursus operator dandang stim gred 1",
+        "perbezaan sijil kursus dan kompetensi boiler",
+        "cara daftar kursus boiler"
+      ],
+      "routes": [
+        "/kursus/boiler/gred-1",
+        "/kursus/boiler/gred-2",
+        "/pendaftaran-dan-sijil",
+        "/hubungi"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Azmida Technical College",
+      "url": "https://azmidatechnicalcollege.com.my/operator-dandang-stim-g1-g2-boilerman/",
+      "observation": "Dedicated Malay page targets Operator Dandang Stim G1 & G2 (Boilerman), with technical/practical course topics.",
+      "ucaOpportunity": "Clear individual grade pages, published December dates and fee options, local Pekan venue."
+    },
+    {
+      "name": "ASIA M&E Engineering",
+      "url": "https://asiagroup.my/boilerman-grade-2-training/",
+      "observation": "Dedicated Grade 2 landing page; classroom/practical methods, HRD Corp claimability and quotation/WhatsApp actions. Explicitly separates course preparation from guaranteed DOSH certification.",
+      "ucaOpportunity": "Publish confirmed UCA pricing and eligibility rather than quote-only; maintain honest certificate distinction."
+    },
+    {
+      "name": "UTHM EduTrain",
+      "url": "https://uthmet.edu.my/boilerman/",
+      "observation": "Boilerman hands-on page highlights practical boiler facilities and competency-exam preparation, with registration link and dedicated boiler contact.",
+      "ucaOpportunity": "Make original practical training photos, facilities and current programme facts easy to inspect."
+    },
+    {
+      "name": "FMM Institute",
+      "url": "https://old.fmm.org.my/images/articles/FMM%20Selangor/IM/2026%20Training%20Calendar.pdf",
+      "observation": "Official 2026 calendar includes Certificate in Boilerman, four-day duration and HRDCorp scheme. Regional FMM pages also target Kuantan/Pahang.",
+      "ucaOpportunity": "Provide accessible text course details and dated web intake pages rather than relying solely on PDF posters. Do not copy older FMM eligibility requirements."
+    },
+    {
+      "name": "Association of Steam Boiler Operator & Engineer",
+      "url": "https://asbm1.org/schedule/",
+      "observation": "2026 schedule separates engineer and operator grades, dates, venue and fees, with registration form.",
+      "ucaOpportunity": "Separate course families and dated intakes clearly; avoid confusing engineer grades with operator grades."
+    }
+  ],
+  "collaboratorBenchmark": {
+    "name": "ADTEC Jerantut",
+    "url": "https://adtecjerantut.gov.my/v5/index.php?Itemid=276&id=70&option=com_sppagebuilder&view=page",
+    "note": "UCA's confirmed MOU collaborator, not to be labelled a competitor on the website. Official technology-dandang page is a useful language/topic benchmark."
+  },
+  "technicalSEO": {
+    "recommendations": [
+      "Generate readable HTML for every route; meaningful page titles and unique descriptions.",
+      "Use one H1 per page, descriptive H2 headings, internal course/intake links, breadcrumb navigation, informative image alt text.",
+      "Provide canonical URLs using the actual deployment domain; never hardcode an unconfirmed domain.",
+      "Generate XML sitemap for canonical public content; robots.txt allows public content and references sitemap.",
+      "Noindex WhatsApp message-review state containing personal form data; use session storage, not personal query strings.",
+      "Return real HTTP 404 for missing URLs; do not map all unknown paths to home with status 200.",
+      "Archive historical intakes with past-status labels and links to current intakes; no active stale registration claims.",
+      "Use Organization/EducationalOrganization, WebSite and BreadcrumbList schema matching visible facts; Course semantics can describe actual courses but no rich-result promise.",
+      "Do not fabricate aggregate ratings, testimonials, award credentials, office address or opening hours.",
+      "Use visible FAQs to answer real questions; do not promise FAQ rich-result display.",
+      "After live deployment submit sitemap and verify Search Console; monitor real queries and revise keywords using measured data."
+    ],
+    "aiSearch": {
+      "source": "https://developers.google.com/search/docs/appearance/ai-features",
+      "summary": "Google says ordinary SEO fundamentals apply to AI search. Crawlability, textual information, internal links and structured data consistent with visible content matter. No special AI file/schema is required and inclusion is not guaranteed.",
+      "implementation": "Place concise direct answers near relevant course facts. Maintain dates and authoritative identity. llms.txt may be an optional navigation aid, not a ranking or citation guarantee."
+    }
+  },
+  "cloudflare": {
+    "sources": [
+      "https://developers.cloudflare.com/workers/static-assets/",
+      "https://developers.cloudflare.com/workers/static-assets/routing/advanced/html-handling/",
+      "https://developers.cloudflare.com/workers/static-assets/routing/static-site-generation/"
+    ],
+    "wrangler": {
+      "name": "uca",
+      "compatibility_date": "2026-11-16",
+      "assets": {
+        "directory": "./dist",
+        "html_handling": "drop-trailing-slash",
+        "not_found_handling": "404-page"
+      }
+    },
+    "implementation": "Cloudflare serves clean paths from generated HTML or folder index files. drop-trailing-slash canonicalizes both .html and trailing slash variants. Include top-level 404.html. Static assets can deploy directly using Wrangler without server logic."
+  },
+  "contentGuardrails": [
+    "User-confirmed upcoming Gred 1 is 19-22 December 2026; Gred 2 is 26-29 December 2026; each four days.",
+    "Both at IKBN Paloh Hinai, Pekan, Pahang; RM3,600 HRD Corp claimable and RM3,400 self pay.",
+    "PLKK 10 August 2026 is historical. Never reuse its free tuition/allowance/age/B40 benefits on December paid courses.",
+    "Other five course fields depend on funding grants and must not appear permanently open.",
+    "Provide either WhatsApp or Google Form; no automatic dual submission and no false sent-success state.",
+    "Current Google Form coverage is unverified. Retain client supplied link but document prelaunch verification requirement.",
+    "UCA course certificate is distinct from JKKP competency registration. Never imply course attendance alone grants competent-person status.",
+    "Use supplied poster eligibility rather than importing older competitor requirements. Link to JKKP for official application requirements."
+  ],
+  "authoritySources": [
+    {
+      "url": "https://dosh.gov.my/my/semakan/operator-dandang-stim/",
+      "purpose": "Official operator-competency overview."
+    },
+    {
+      "url": "https://dosh.gov.my/my/semakan/pusat-pengajar-operator-dandang-stim/",
+      "purpose": "Official registered-training-provider context; do not infer UCA approval from this general page."
+    },
+    {
+      "url": "https://dosh.gov.my/wp-content/uploads/2026/02/Panduan-Permohonan-Pendaftaran-dan-Pembaharuan-Operator-Dandang-Stim-2026.pdf",
+      "purpose": "Current official competency-registration guidance. Distinguish full registration/exam conditions from UCA course entry conditions. PDF contains an apparent Gred1 exam-grade wording inconsistency; do not reproduce it as authoritative course copy."
+    }
+  ],
+  "suggestedFAQs": [
+    {
+      "q": "Di manakah kursus boiler UCA dijalankan?",
+      "a": "Pengambilan Disember 2026 dijalankan di IKBN Paloh Hinai, Pekan, Pahang."
+    },
+    {
+      "q": "Berapakah yuran kursus boiler UCA?",
+      "a": "Yuran yang dipaparkan untuk kedua-dua pengambilan Disember 2026 ialah RM3,600 bagi HRD Corp claimable atau RM3,400 bagi self pay."
+    },
+    {
+      "q": "Bilakah pengambilan Boiler Gred 1 dan Gred 2?",
+      "a": "Gred 1 dijadualkan pada 19–22 Disember 2026. Gred 2 dijadualkan pada 26–29 Disember 2026. Setiap kursus berlangsung empat hari."
+    },
+    {
+      "q": "Bagaimanakah cara mendaftar?",
+      "a": "Pilih sama ada borang laman web untuk diteruskan ke WhatsApp atau Google Form. Untuk WhatsApp, semak mesej dan tekan Send dalam WhatsApp."
+    },
+    {
+      "q": "Adakah sijil kursus sama dengan kelayakan kompetensi?",
+      "a": "Sijil kursus dan kelayakan kompetensi adalah berbeza. UCA mengeluarkan sijil penyertaan kursus; sijil sampingan ADTEC dan IKBN mengikut program. Hubungi UCA untuk maklumat sijil dan langkah seterusnya."
+    }
+  ]
+}

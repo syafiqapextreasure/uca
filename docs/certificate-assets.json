@@ -1,0 +1,92 @@
+{
+  "reviewedAt": "2026-11-17",
+  "certificates": [
+    {
+      "slug": "hrdc",
+      "source": "SIJIL HRDC (NEW).pdf",
+      "title": "HRD Corp — Penyedia Latihan Berdaftar",
+      "registration": "202001017936",
+      "validFrom": "2026-07-03",
+      "validUntil": "2027-07-02",
+      "releaseDate": "2026-07-08",
+      "scope": "Pendaftaran penyedia latihan; bukan jaminan setiap kursus atau tuntutan diluluskan.",
+      "certificatePage": 1,
+      "image": "/assets/certificate-hrdc.webp",
+      "thumbnail": "/assets/certificate-hrdc-thumb.webp",
+      "pdf": "/documents/certificate-hrdc.pdf",
+      "width": 1696,
+      "height": 2400,
+      "bytes": 382820,
+      "method": "Original PDF page rendered using Poppler; lossless WebP with decoded-pixel equality check; no AI recreation of official content.",
+      "validityLabel": "Dalam tempoh tarikh pada dokumen",
+      "verifiedAgainst": "Supplied document, not live authority registry"
+    },
+    {
+      "slug": "cidb",
+      "source": "SIJIL CIDB (1).pdf",
+      "title": "CIDB — Perakuan Pendaftaran Kontraktor",
+      "registration": "0120260224-SL168040",
+      "validFrom": "2026-02-27",
+      "validUntil": "2028-02-26",
+      "sourceStatus": "BARU",
+      "grade": "G4",
+      "categories": [
+        "B / B04",
+        "CE / CE21",
+        "ME / M15"
+      ],
+      "scope": "Pendaftaran kontraktor; bukan akreditasi latihan boiler.",
+      "certificatePage": 1,
+      "image": "/assets/certificate-cidb.webp",
+      "thumbnail": "/assets/certificate-cidb-thumb.webp",
+      "pdf": "/documents/certificate-cidb.pdf",
+      "width": 1696,
+      "height": 2400,
+      "bytes": 96624,
+      "method": "Original PDF page rendered using Poppler; lossless WebP with decoded-pixel equality check; no AI recreation of official content.",
+      "validityLabel": "Dalam tempoh tarikh pada dokumen",
+      "verifiedAgainst": "Supplied document, not live authority registry"
+    },
+    {
+      "slug": "felcra",
+      "source": "SIJIL FELCRA NEW.pdf",
+      "title": "FELCRA — Pendaftaran Kontraktor / Pembekal",
+      "registration": "4694 (W)",
+      "reference": "0199/2026",
+      "validFrom": "2026-05-18",
+      "validUntil": "2028-05-17",
+      "scope": "Pendaftaran kontraktor/pembekal untuk tawaran kerja, bekalan dan perkhidmatan; bukan akreditasi latihan.",
+      "certificatePage": 1,
+      "image": "/assets/certificate-felcra.webp",
+      "thumbnail": "/assets/certificate-felcra-thumb.webp",
+      "pdf": "/documents/certificate-felcra.pdf",
+      "width": 1697,
+      "height": 2400,
+      "bytes": 192250,
+      "method": "Original PDF page rendered using Poppler; lossless WebP with decoded-pixel equality check; no AI recreation of official content.",
+      "validityLabel": "Dalam tempoh tarikh pada dokumen",
+      "verifiedAgainst": "Supplied document, not live authority registry"
+    }
+  ],
+  "ssm": {
+    "source": "COMPANY PROFILE SSM NEW ADDRESS.pdf",
+    "documentType": "Company profile, not certificate",
+    "publicPdf": null,
+    "publicImage": null,
+    "reason": "Full report contains personal identity numbers/home addresses and financial data; page1 QR may allow access to full report. Public summary only.",
+    "publicSummary": {
+      "name": "Universal Competency Academy Sdn. Bhd.",
+      "registration": "202001017936 (1374256-V)",
+      "incorporated": "2020-07-10",
+      "sourceStatus": "EXISTING",
+      "informationAsAt": "2026-10-08"
+    }
+  },
+  "presentation": {
+    "background": "/assets/certificate-backdrop.webp",
+    "mode": "built-in image_gen",
+    "prompt": "Portrait 4:5 decorative empty certificate gallery backdrop, dark industrial navy, cyan edge lighting and angular corner slash accents, faint industrial piping; clean central 80%; no certificate, text, logos, seals, signatures, QR or paper.",
+    "implementation": "Use original certificate image object-fit:contain above decorative CSS background with 5–7% padding, no cropping; title/expiry in selectable HTML below. Open full image/PDF on click. Three actual certificates plus separate SSM corporate-summary card. Never label SSM report as a certificate."
+  },
+  "sourceDiscrepancy": "FELCRA document prints Tingkat 15; CIDB and SSM print Tingkat 16. Preserve original facsimile; do not silently alter certificate address."
+}

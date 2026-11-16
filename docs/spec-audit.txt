@@ -1,0 +1,86 @@
+HISTORICAL AUDIT: initial gaps below were input to17November corrective rebuild. See verification-results.json for latest status.
+
+UCA READ-ONLY SOURCE / SPEC AUDIT
+Review date: 17 November 2026 (Asia/Singapore)
+Scope: uca-site/src/pages.mjs, public/app.js, public/styles.css; v2 requirements source and approved screenshots.
+No browser, build, functional test or screenshot comparison was run. Findings below are source-inspection findings. Asset generation was still in progress at inspection; missing-asset observations are snapshots, not final-build assertions.
+
+HIGH PRIORITY
+
+1. Personal-data URL exposure when JavaScript is unavailable
+pages.mjs: registration form is <form id="registration"> with neither action nor method. Browser default is GET to the current URL. If app.js fails, is blocked, or JavaScript is disabled, submitting sends name, phone, email, company, message and consent as query parameters. This contradicts the intended lightweight browser-only handoff and can expose data in logs/history. Provide a safe no-JS path and prevent personal-data GET fallback.
+
+2. Real handoff flow does not render the approved handoff page
+app.js: showHandoff() hides only .sidebar-layout, appends a panel, then history.pushState('/teruskan-whatsapp'). The existing contact hero, route-choice buttons, venue strip and head metadata/canonical remain. The generated standalone handoff page and its hero-handoff asset are never used by this flow. It also changes title but not H1/active page/canonical/noindex metadata. Implement one coherent handoff state matching screen 16, with message preview and recipient number, then preserve Edit behavior.
+
+3. Forward history state is ignored
+app.js popstate unconditionally removes #live-handoff and shows form. After Back followed by Forward, URL returns to /teruskan-whatsapp while the form displays, because event.state.handoff is ignored. The draft variable is written but never used to restore the view. Restore the appropriate state when navigating history. A reload currently lands on the standalone empty handoff; this can be intentional for privacy but should be explicit recovery behavior.
+
+SPEC / CONTENT GAPS
+
+4. Archive details do not meet required evidence/related-record structure
+pages.mjs archive loop: September 2023 has a poster, but July 2026, July 2025 and February 2024 have only a date panel and generic text. No archive detail has source attribution or source URL. All omit related-entry cards. Spec section 11 explicitly calls for advertised date/venue where known, source poster/original media, source attribution and related entries. Use supplied catalog originals and per-record facts; do not attach undated group photos to particular cohorts.
+
+5. MOU year filter misclassifies ADTEC
+pages.mjs /aktiviti: one combined 'Kerjasama IKBN & ADTEC' record has data-year=2026, although ADTEC MOU is 21 October 2024. A 2024 + Kerjasama filter therefore cannot find it. Separate the two dated MOU entries or model multiple years accurately.
+
+6. Missing About submenu and breadcrumbs
+pages.mjs nav contains six plain anchors only; no About submenu for history/credentials, as requested by spec section 6. History and credentials are reachable in footer and About body, which is useful, but the requested submenu is absent. Breadcrumbs visible on multiple approved course/archive pages are absent from every source page; there is also no BreadcrumbList JSON-LD.
+
+7. Google Form is wired live while suitability remains unverified
+The supplied URL is correctly retained, but spec explicitly requires verification that it accepts paid December grades before launch. This is an unresolved external prelaunch check, not an invented broken-link finding. The site should not be declared fully launch-verified until this is resolved.
+
+8. Privacy remains draft and lacks operator-specific handling terms
+The visible notice truthfully says draft. Final retention/deletion procedures, Google account ownership/access and designated handling details remain unresolved from the spec. Current privacy also does not enumerate payment choice, intake and selected recipient among fields included in the prepared message. The handoff should identify selected officer and number clearly.
+
+9. Intake status never changes
+Upcoming December headings and active CTA are hardcoded. The spec asks to retire registration CTAs when intakes close. Current source has no status/date guard or maintenance metadata. At the review date both December courses are upcoming, so current facts are correct; add an explicit maintenance mechanism or generated status based on approved closing rules.
+
+DESIGN MISMATCHES DETERMINABLE FROM SOURCE
+
+10. Gred 1 and Gred 2 pages share one near-identical template despite distinct approved compositions
+Approved Gred 2 screen starts with 'Gambaran Kursus', boiler overview icon/copy, then eligibility, four facility icons, expanded certificate blocks and bottom MOU strip. Source starts immediately with eligibility, omits overview and MOU strip, adds five amenities, and ends with generic full-width FAQs. Gred 1 approved page has FAQ plus right-side enquiry CTA; source lacks the side CTA. Gred 1 self-pay fee block is orange in the design, but generic CSS gives both fees the same blue treatment.
+
+11. Contact form composition differs materially
+Approved screen has left labels with controls aligned alongside them; course/payment/officer choices are radios. Source stacks labels above full-width controls and uses selects for all choices. Route choices in artwork overlap the hero bottom; source puts them in normal content flow. Aside December intake card omits the approved package inclusions summary. These change page height, density and control affordances.
+
+12. History filter controls differ
+Approved archive uses year/type pill buttons; source uses two native select controls. Both can work, but this is a visible substitution inconsistent with exact design matching. Gallery has no individual original-source captions or explicit undated-photo note (generic alt only).
+
+13. Missing page-specific sections
+Grant-programme page replaces the approved wide past-programme split feature with generic three history cards. Credentials page omits approved boiler photo beside course certificates. Archive detail lacks related records. PLKK lacks approved related-archive section (the approved mockup itself repeats PLKK; a sensible actual related record is preferable to self-link). 404 uses a generic hero with 404 and heading in one uniformly-sized H1 instead of the approved dominant 404 numeral and tall dedicated composition.
+
+14. Crops and page measurements are mostly global
+All hero images use background-position:center and the same min-height; mobile uses 63% center for every asset. No per-page focal point, hero-height or crop measurement exists. Cards reuse generic object-position 64%; these settings cannot preserve varying approved reference compositions reliably. True visual comparison remains necessary.
+
+15. Icons are bespoke substitutions rather than traced/extracted approved shapes
+pages.mjs includes simplified 24x24 SVG paths. Examples: generic chat bubble replaces WhatsApp brand mark; boiler drawing differs; handshake/gear used in the approval are not present, so other icons stand in. Scalable SVG is appropriate but paths should match the intended icons. Several simple rectangles/circles do not reproduce the approved silhouettes.
+
+16. Mobile copy still shrinks below requested older-reader comfort
+styles.css max-width:520px sets course facts to 15px, fee labels to 12px, course buttons to 15px and eyebrow to 12px. Body is 18px, but crucial pricing/eligibility labels become substantially smaller. Keep essential facts/actions around >=16-18px, reflow cards instead of squeezing the image/text split. Large-screen body scaling to 25px and heading scaling to 90px is present.
+
+17. Typography cannot yet match while the font asset is missing
+CSS and HTML reference /assets/inter.woff2, but it was absent in the file listing at audit time. Arial fallback would materially alter proportions. Font source/licence and final visual weight matching remain required. This may be in progress.
+
+18. Responsive assets are generated but not consumed
+pic() only sets src to full-size WebP; no srcset/sizes or width/height. Hero CSS only references full-size files. -640 and -1280 variants exist but are unused. Add responsive sources/background selection and dimensions to reduce mobile transfer and layout shifts without lowering desktop quality.
+
+ASSET SNAPSHOT (IN PROGRESS)
+At inspection, source references several absent files: inter.woff2; hero-about; hero-intake-2; hero-partnerships; hero-credentials; hero-history; hero-archive; boiler-blueprint; hero-contact; hero-privacy; hero-handoff; hero-404; electrician. Confirm against final asset manifest after generation; do not publish with unresolved references.
+Shared factory CTA and grade images are reused across multiple pages/sections. User requested not using same image across pages especially heroes; decide whether shared decorative CTA is acceptable or supply differentiated variants. Archive/gallery reuse is explicitly allowed.
+
+CORE FACTS THAT MATCH
+- Gred 1 19-22 December 2026; Gred 2 26-29 December 2026; each four days.
+- IKBN Paloh Hinai, Pekan, Pahang.
+- HRD Corp claimable RM3,600; self pay RM3,400.
+- Johan/Pitri/Halim phone numbers and two emails.
+- Grade-specific experience/qualification statements follow approved posters.
+- PLKK 10 August 2026 clearly historical, no active registration CTA.
+- Grant programmes clearly conditional; MOU wording does not imply subsidiary ownership.
+- UCA participation/supplementary partner certificate wording distinguished from competency.
+- WhatsApp message uses textContent + encodeURIComponent, no raw user HTML interpolation.
+- No persistent browser storage/database introduced; consent required; Google route independent.
+- Reduced-motion CSS and parallax opt-out exist; focus-visible styles and large action targets exist.
+
+REMAINING VERIFICATION
+This read-only audit cannot certify pixel accuracy, overflow, responsive layout, image crops, keyboard interactions, network assets or browser-history behavior. User explicitly requested desktop/tablet/phone side-by-side comparisons before functional tests; those remain unperformed while browser QA is blocked.

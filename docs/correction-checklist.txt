@@ -1,0 +1,122 @@
+UCA APPROVED DESIGN CORRECTION CHECKLIST — 17 NOVEMBER 2026
+
+Scope: read-only comparison of all 18 approved pages with outputs/uca-browser-comparisons/00–17 and all 15 newest annotated screenshots supplied by the user. No source changes, browser execution or functional tests in this audit. Current source pages.mjs was reread; corrections underway may supersede observations.
+
+MEASUREMENT BASIS / GLOBAL TARGETS
+The reference is 1024 px wide. Measurements below are approximate visual targets, not pixel-diff measurements. Normalize BOTH captures to the same width, not the same height, before comparing. At 1440 px viewport multiply reference measurements by ~1.4 until a sensible content max-width; do not retain reference-size fonts while expanding every container.
+- Desktop content margins ~30/1024 (3% each side); header ~115–125 reference px. Preserve original wide UCA logo ratio, ~300–320 reference px wide, vertically centered; no extra brand label beneath.
+- Main body/reference text generally ~18–22 px; small supporting text ~15–17; section headings ~28–34. At 1440, target body ~25–30, supporting text >=20–22, section headings ~39–47. Individual reference measurement takes precedence. Current .small, card facts, sidebars, table and footer are visibly undersized when compared at equal width.
+- Phone: body >=18px, inputs/buttons >=18px, secondary labels >=16px. Avoid shrinking entire desktop compositions. Reflow grids intentionally; maintain full image subject rather than cutting off helmets/faces.
+- Keep cyan slash heading accents, outlined cyan panels, subtle industrial backgrounds, line dividers, pale cyan glow, icons and dark-to-transparent image overlays. A generic panel or checkmark is not a visual substitute for the approved bespoke section.
+- Desktop hero heights must be page-specific: typical compact hero ~280–330 reference px; activity archive is shorter; 404 is a tall full-page industrial composition. Preserve source subject placement and crop. Unique hero requirement remains; reuse design composition with distinct subject asset if necessary.
+- Match icon silhouettes and scale: cyan line icons commonly 32–44 reference px; major feature/certificate icon ~48–65. Do not replace helmet / certificate / boiler / handshake with tiny checkmarks or generic users icons.
+- Footer needs large enough company/contact text, 3 cyan separators and original red logo. Its current minuscule text materially differs from every approved page.
+
+00 HOME /
+- Preserve approved hero headline/CTA placement; increase eyebrow, subheading and CTA text at large width.
+- Upcoming cards: image ~40–45% width, text remainder; strong dates and venue, prominent fee pair and cyan self-pay block. Use control-panel worker for Gred 2 as reference; current boiler-only crop misses the intended subject.
+- History cards need readable title/date/badge, larger icons, consistent vertical rhythm. Partner strip and final CTA require original cyan separators and more legible text.
+
+01 ABOUT /tentang-uca
+- Lead split ~40% copy / 60% authentic group image; reduce empty top gap. Keep group image evidence caption.
+- Three facts belong inside ONE horizontal strip with vertical dividers, not three disconnected boxes.
+- Approach section uses boiler/industrial photograph on right, not another group photograph. Left is 3 open icon rows with cyan separators, not heavy stacked cards.
+- Partner strip: include verified IKBN Pekan and ADTEC logos/icons requested by user. Follow with full-width history link strip, not only two detached buttons.
+
+02 COURSES /kursus
+- Two equal photographic overlay cards: photo fills entire card, dark fade at bottom, course name/date/button over image. Remove home-card-style half-width information panels and embedded fee clutter from these cards.
+- Comparison table follows below; enlarge row labels and prices. Keep table readable without overall page overflow on mobile.
+- Approved post-table details are two compact inline notice rows; do not substitute a generic boxed amenities grid.
+- Grant links require distinct subject icons and same compact horizontal treatment.
+
+03 GRED 1 COURSE /kursus/boiler/gred-1
+- Main content/sidebar approx 65/35 with consistent top alignment. Sidebar facts get cyan icons; two fee blocks must retain cyan/amber distinction.
+- Eligibility is 3 visual icon rows: helmet, worker/group, document; generic tick list loses composition.
+- Learning/amenities retain 5 illustrated icon items, certificate section has prominent certificate emblem and readable text.
+- Bottom: two FAQ rows in left column; enquiry/WhatsApp panel to right. Current four full-width FAQ rows materially change layout.
+
+04 GRED 2 COURSE /kursus/boiler/gred-2
+- Match distinct approved hero worker crop. Retain eligibility/body versus intake sidebar width as above, but do not copy Gred 1's eligibility wording.
+- Preserve Gred 2 course overview and approved original sequence: eligibility, overview, learning/facilities, certificate, partner strip, FAQ/CTA composition.
+- Same icon, fee and typography fixes as Gred 1. Keep venue/date facts legible rather than very small dense sidebar copy.
+
+05 GRANTS /program-geran
+- Maintain five distinct discipline image cards and their exact large/small grid relationships; keep icon/title over dark image fade.
+- Three-step explanatory row requires original large line icons and connectors, not tiny substituted symbols.
+- Lower past-program section must be ~50/50 boiler photograph / PLKK past-program copy with clear past badge and CTA. Current generic three-card history block is the wrong section.
+- Do not present unannounced grant programmes as open registration.
+
+06 INTAKE SCHEDULE /pengambilan
+- Each intake row needs large day/month marker with DIS on its own line, vertical divider, main course/date details and right-aligned fees/button. Reduce oversized padding around tiny type; increase contents proportionally.
+- Restore compact package strip, 3-step process icons, and the past PLKK row with blueprint thumbnail.
+- Include bottom information strip from reference. Current all-purpose amenities box and missing past thumbnail do not match.
+
+07 GRED 1 INTAKE /pengambilan/boiler-gred-1-disember-2026
+- Poster and registration two columns approx 56/44; display original poster without cropping. Right has TWO fees side by side, not stacked, then two registration choices.
+- Below: three equal columns for eligibility, package, certificate. Avoid stacking full-width generic sections which makes this page unnecessarily long.
+- Contacts align in a single readable row at desktop and stack at phone. Poster remains independently zoomable/openable.
+
+08 GRED 2 INTAKE /pengambilan/boiler-gred-2-disember-2026
+- Same measured structure as Gred 1, preserving Gred 2 date, poster and eligibility.
+- User explicitly circled entire lower area: restore 56/44 poster/registration, paired fee panels and 3-column details. Keep shared horizontal baselines and remove empty right space.
+
+09 PARTNERSHIPS /kerjasama
+- Two MOU partner cards equal height, aligned internal rows. Add verified original institutional logos rather than text-only labels; allow their native aspect ratios.
+- Three focus areas are open columns with large icons, not separate oversized bordered cards.
+- Timeline requires horizontal cyan line and circular endpoints/date labels. Keep MOU dates 21 October 2024 and 16 February 2026.
+- Use authentic meeting photo in its correct gallery context; crop to participants, avoiding excessive foreground chairs/table. Do not caption 2023 photo as proof of 2024 MOU signing.
+- Caption uses cyan slash/heading treatment, with larger related buttons. Current second partner card is nearly twice first card's height.
+
+10 CREDENTIALS /pendaftaran-dan-sijil
+- Restore cyan reference/registration pills with visible numbers, not a single tiny paragraph.
+- Certificate explanation is split certificate/industrial image plus explanatory text; current all-text panel drops major artwork.
+- Corporate registration cards must retain distinct official badge/icon areas, readable text, and strong vertical dividers. Do not conflate SSM/CIDB/HRD/JKKP claims.
+- Keep institute supplemental certificates conditional by programme; course certificate is not automatic competency approval.
+
+11 HISTORY /aktiviti
+- Hero is compact industrial scene with title on one line at desktop where reference allows; current tall group-photo hero changes hierarchy. Authentic gallery is a separate section.
+- Filters should be visible year/type pill rows as approved, not two tiny dropdowns. Maintain accessible selected state and keyboard use.
+- Archive rows need larger date/title/badge and compact consistent spacing. Do not add a combined MOU pseudo-event row to programme list merely to fill space; if retained, label/filter it independently with correct years.
+- Source dates belong to promotional records; authentic undated photos must not be assigned to a specific programme without evidence.
+
+12 ARCHIVE /aktiviti/boilerman-september-2023 (+ other archive records)
+- Poster left ~50%, right summary ~50%; aligned tops. Right facts use cyan calendar/clock/info icons and horizontal rules, then detailed summary and full-width stacked buttons.
+- Current poster dominates right-side small copy and leaves large blank area. Increase right typography and correct facts spacing before shrinking poster.
+- Restore bottom full-width archive disclaimer, then two related-record cards with calendar icons (February 2024 and July 2025 in approved Sept2023 page).
+- Other archive pages must show their actual evidence/poster or an honest source summary, not invented event photography or completed-event claims.
+
+13 PLKK PAST /aktiviti/plkk-boiler-ogos-2026
+- Preserve blueprint hero and clear past-intake badge/date.
+- Two eligibility/benefit panels equal height, with large outlined icons and circle checks; remove heavy per-item table-like rules. Each panel has its own historical-context footnote.
+- Full-width past-intake strip uses prominent clock icon and headline. Then two buttons and a related archived intake card with blueprint thumbnail.
+- No active application CTA for 10 August 2026; upcoming-interest enquiry is appropriate.
+
+14 CONTACT /hubungi
+- Desktop form/sidebar ~62/38. Within form, labels occupy left ~30%, controls right ~70%; current labels above controls nearly doubles page height.
+- Restore visible radio groups for course, payment and officer choices; use select only for intake. Show required/optional labels clearly. Keep course preselection/query behavior.
+- Sidebar has direct contacts, Google Form alternative, and date/fee intake summary; balance its height against form, removing large unused bottom area.
+- Two registration route tabs directly below hero; venue strip directly after form. Phone may stack labels above controls deliberately.
+- Submit reviews WhatsApp message; Google Form remains a separate user choice. Never imply one action sends to both.
+
+15 PRIVACY /privasi
+- Reference sidebar ~25%, main article ~75%, cyan active pill, strong numbered headings with slash accents and section rules.
+- Content should use short bullets where reference does, not tiny dense paragraphs. Add prominent email and telephone buttons at contact section.
+- Retain source-approved compact industrial hero composition while using distinct imagery per user requirement. Current replacement close-up objects does not match visual balance.
+- Bottom privacy draft/review notice and return CTA need full readable scale. Do not claim unverified retention periods or legal compliance.
+
+16 WHATSAPP HANDOFF /teruskan-whatsapp
+- Approved state is a populated review, not blank form fallback. Compare screenshot only after completing form with synthetic data.
+- Center review card ~85–90% content width: recipient header, message intro, labeled review rows with cyan icons, large full-width WhatsApp CTA, Send instruction, paired edit/copy buttons.
+- Body background continues industrial blue glow behind card; generic tiny centered text box lacks design. Empty direct-entry state may be an intentional compact variant, but cannot replace successful flow.
+- Existing handoff header/image are different due unique-hero requirement; preserve original subject placement and hero proportions without duplicating the same hero asset.
+
+17 NOT FOUND /404
+- Restore tall composition (~full viewport content), huge standalone cyan 404 (~150–180 reference px), separate white heading, cyan underline, copy and two CTAs over left dark gradient.
+- Background industrial boiler fills right through hero and links section; current ordinary short hero and inline white 404 are fundamentally different.
+- Three useful links use large calendar/layers/phone icons, equal widths and cyan outlined panels. Footer sits near bottom, not halfway up a short page.
+
+ACCEPTANCE CHECK
+1. At equal width compare each approved page and corrected page side by side; record top/header, hero end, each section boundary and footer start in reference-relative y coordinates.
+2. Resolve missing content/artwork/icons first, then widths/heights/crops, then text scale/spacing. Expected order is visual correction before functional tests.
+3. Recheck at desktop, large desktop, tablet, phone; long-page height difference should be explained by required content or responsive stacking, not tiny fonts or gratuitous whitespace.
+4. Continue factual checks: G1 19–22 Dec2026, G2 26–29 Dec2026; four days; IKBN Paloh Hinai/Pekan; RM3600 HRD vs RM3400 selfpay; launch contacts Johan/Pitri/Halim; PLKK past.

@@ -1,0 +1,3 @@
+import fs from 'node:fs';import path from 'node:path';import {pages} from '../src/pages.mjs';
+const issues=[];for(const p of pages){for(const m of p.html.matchAll(/(?:src|href)="(\/[^"?#]*)(?:[?#][^"]*)?"/g)){const u=m[1];if(u==='/')continue;const f=path.join('dist',u);if(!fs.existsSync(f)&&!fs.existsSync(f+'.html'))issues.push({route:p.route,missing:u});}for(const m of p.html.matchAll(/url\('([^']+)'\)/g)){if(m[1].startsWith('/')&&!fs.existsSync(path.join('dist',m[1])))issues.push({route:p.route,missing:m[1]});}}
+console.log(JSON.stringify({pages:pages.length,sourceAssetIssues:issues},null,2));if(issues.length)process.exitCode=1;

@@ -1,0 +1,179 @@
+{
+  "version": "2.0",
+  "review_date": "2026-11-16",
+  "primary_course": "Boiler",
+  "other_programmes": "Depend on grants released by funding bodies",
+  "venue": "IKBN Paloh Hinai, Pekan, Pahang",
+  "jkkp_reference_as_printed": "JKKP.600-4/6/4-19",
+  "fees": {
+    "hrd_corp_claimable": 3600,
+    "self_pay": 3400,
+    "currency": "MYR"
+  },
+  "intakes": [
+    {
+      "grade": 1,
+      "start": "2026-12-19",
+      "end": "2026-12-22",
+      "days": 4
+    },
+    {
+      "grade": 2,
+      "start": "2026-12-26",
+      "end": "2026-12-29",
+      "days": 4
+    }
+  ],
+  "contacts": [
+    {
+      "name": "En. Johan",
+      "phone": "012-277 7068",
+      "e164": "60122777068"
+    },
+    {
+      "name": "En. Pitri",
+      "phone": "019-757 1196",
+      "e164": "60197571196"
+    },
+    {
+      "name": "En. Halim",
+      "phone": "014-546 7414",
+      "e164": "60145467414"
+    }
+  ],
+  "emails": [
+    "mohd.johan@uca-eng.com",
+    "sales.admin@uca-eng.com"
+  ],
+  "google_form": "https://forms.gle/dPTec24A6dp11DDGA",
+  "google_form_verified": false,
+  "registration_choice": "Either WhatsApp or Google Form; not both automatically",
+  "plkk": {
+    "start": "2026-08-10",
+    "status": "past intake confirmed by user",
+    "eligibility_age": "18-40",
+    "target_group": "Malaysian B40; healthy; literacy/numeracy; former tahfiz students may apply"
+  },
+  "mockups": [
+    {
+      "file": "00-homepage.png",
+      "title": "Utama",
+      "route": "/",
+      "purpose": "Updated homepage: boiler-led launch, December intakes and history teaser."
+    },
+    {
+      "file": "01-about.png",
+      "title": "Tentang UCA",
+      "route": "/tentang-uca",
+      "purpose": "Company story, training focus and approved identity."
+    },
+    {
+      "file": "02-courses.png",
+      "title": "Kursus Boiler",
+      "route": "/kursus",
+      "purpose": "Gred 1 / Gred 2 comparison and conditional grant programmes."
+    },
+    {
+      "file": "03-course-grade-1.png",
+      "title": "Boiler Gred 1",
+      "route": "/kursus/boiler/gred-1",
+      "purpose": "Evergreen Grade 1 course information and next-intake card."
+    },
+    {
+      "file": "04-course-grade-2.png",
+      "title": "Boiler Gred 2",
+      "route": "/kursus/boiler/gred-2",
+      "purpose": "Evergreen Grade 2 course information and next-intake card."
+    },
+    {
+      "file": "05-grant-programmes.png",
+      "title": "Program Mengikut Geran",
+      "route": "/program-geran",
+      "purpose": "Other fields depend on donor grants; no invented open intake."
+    },
+    {
+      "file": "06-intake-schedule.png",
+      "title": "Jadual & Pengambilan",
+      "route": "/pengambilan",
+      "purpose": "Two December 2026 intakes; past intake tab."
+    },
+    {
+      "file": "07-intake-grade-1.png",
+      "title": "Pengambilan Gred 1",
+      "route": "/pengambilan/boiler-gred-1-disember-2026",
+      "purpose": "19-22 December 2026 booking/enquiry details."
+    },
+    {
+      "file": "08-intake-grade-2.png",
+      "title": "Pengambilan Gred 2",
+      "route": "/pengambilan/boiler-gred-2-disember-2026",
+      "purpose": "26-29 December 2026 booking/enquiry details."
+    },
+    {
+      "file": "09-partnerships.png",
+      "title": "Kerjasama MOU",
+      "route": "/kerjasama",
+      "purpose": "IKBN Pekan and ADTEC; boiler venue at IKBN Pekan."
+    },
+    {
+      "file": "10-credentials.png",
+      "title": "Pendaftaran & Sijil",
+      "route": "/pendaftaran-dan-sijil",
+      "purpose": "Provider evidence distinguished from corporate registrations."
+    },
+    {
+      "file": "11-activity-history.png",
+      "title": "Aktiviti & Sejarah Program",
+      "route": "/aktiviti",
+      "purpose": "Past programmes, chronology and sourced activity photos."
+    },
+    {
+      "file": "12-archive-programme.png",
+      "title": "Rekod Program September 2023",
+      "route": "/aktiviti/boilerman-september-2023",
+      "purpose": "Historical poster record; no assertion that photos prove this cohort."
+    },
+    {
+      "file": "13-plkk-past-intake.png",
+      "title": "PLKK: Pengambilan Lepas",
+      "route": "/aktiviti/plkk-boiler-ogos-2026",
+      "purpose": "10 August 2026 explicitly treated as a past intake."
+    },
+    {
+      "file": "14-contact-registration.png",
+      "title": "Hubungi & Pendaftaran",
+      "route": "/hubungi",
+      "purpose": "Choose website form to WhatsApp OR external Google Form."
+    },
+    {
+      "file": "15-privacy.png",
+      "title": "Privasi",
+      "route": "/privasi",
+      "purpose": "Readable privacy layout; final policy details require operator confirmation."
+    },
+    {
+      "file": "16-whatsapp-handoff.png",
+      "title": "Teruskan ke WhatsApp",
+      "route": "/teruskan-whatsapp",
+      "purpose": "Honest handoff state; user still presses Send in WhatsApp."
+    },
+    {
+      "file": "17-not-found.png",
+      "title": "Halaman Tidak Ditemui",
+      "route": "/404",
+      "purpose": "Helpful navigation back to courses and contact."
+    }
+  ],
+  "revision_2026_11_17": {
+    "about_certificates": [
+      "HRD Corp",
+      "CIDB G4",
+      "FELCRA"
+    ],
+    "certificate_presentation": "Three official document facsimiles on imagegen decorative backdrop, full image and original PDF links; SSM summary separately.",
+    "gallery": "Six enhanced source photos; automatic carousel with pause, next/previous, keyboard access and reduced-motion preference.",
+    "typography": "Inter variable; body 18px mobile, 28px at1440 and39px at2560.",
+    "google_form_verified": "Form currently lists Sarawak/Kedah programmes; client explicitly reconfirmed using the same Google Form on17November2026. Keep WhatsApp OR Google Form options.",
+    "user_layout_corrections": "15 marked sections rebuilt; all18 approved routes compared at1440,2560,768,390."
+  }
+}
