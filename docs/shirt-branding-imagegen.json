@@ -1,0 +1,12 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-11-17",
+  "assets": {
+    "hero-contact": "exec-b3d43bd6-41c7-45b3-b2f3-fada414fcec3.png",
+    "hero-grade-2": "exec-fcd82548-d23c-4dfa-8b9d-5feeadae5425.png",
+    "hero-courses": "exec-72972b82-b58d-42a3-a060-546fa6398cda.png",
+    "course-grade-2": "exec-d094d59f-e694-4fa7-b5b9-989d1c809154.png"
+  },
+  "prompt": "Precise image edit: add the supplied exact red Universal Competency Academy / Drive to Deliver logo as realistic shirt patches, preserving faces, poses, PPE, workshop equipment, framing and lighting. Chest patches for front-facing people; upper-back patch for rear-facing operator.",
+  "compression": "Full-resolution lossless WebP, decoded pixel equality verified. 640/1280 responsive variants use Lanczos resizing and lossless WebP."
+}

@@ -5,7 +5,7 @@ const icons={arrow:'M5 12h14m-6-6 6 6-6 6',calendar:'M4 5h16v16H4zM8 2v6m8-6v6M4
 Object.assign(icons,extraIcons);
 export const icon=(n='arrow')=>`<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${icons[n]||icons.arrow}"/></svg>`;
 const link=(t,u,c='button')=>`<a class="${c}" href="${u}">${t}${icon()}</a>`;
-const pic=(n,alt='',c='')=>`<img class="${c}" src="${A+n}.webp" ${/^(hero-|electrician|solar|welding|plastic-welding|scaffolding|boiler-blueprint|gallery-.*-enhanced|showcase-)/.test(n)?`srcset="${A+n}-640.webp 640w, ${A+n}-1280.webp 1280w, ${A+n}.webp 2172w" sizes="(max-width: 520px) 100vw, (max-width: 1000px) 50vw, 50vw"`:''} alt="${alt}" loading="lazy" decoding="async">`;
+const pic=(n,alt='',c='')=>`<img class="${c}" src="${A+n}.webp" ${/^(hero-|course-grade-|electrician|solar|welding|plastic-welding|scaffolding|boiler-blueprint|gallery-.*-enhanced|showcase-)/.test(n)?`srcset="${A+n}-640.webp 640w, ${A+n}-1280.webp 1280w, ${A+n}.webp ${n.startsWith('course-grade-')?1536:2172}w" sizes="(max-width: 520px) 100vw, (max-width: 1000px) 50vw, 50vw"`:''} alt="${alt}" loading="${/^(partner-|gallery-|showcase-)/.test(n)?'eager':'lazy'}" decoding="async">`;
 const title=t=>`<h2 class="section-title">${t}</h2>`;
 const box=(h,t,i='certificate')=>`<article class="panel feature">${icon(i)}<div><h3>${h}</h3><p>${t}</p></div></article>`;
 const venue='IKBN Paloh Hinai, Pekan, Pahang';

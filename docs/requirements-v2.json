@@ -1,6 +1,6 @@
 {
-  "version": "2.0",
-  "review_date": "2026-11-16",
+  "version": "2.2",
+  "review_date": "2026-11-17",
   "primary_course": "Boiler",
   "other_programmes": "Depend on grants released by funding bodies",
   "venue": "IKBN Paloh Hinai, Pekan, Pahang",
@@ -165,15 +165,39 @@
     }
   ],
   "revision_2026_11_17": {
-    "about_certificates": [
-      "HRD Corp",
-      "CIDB G4",
-      "FELCRA"
+    "catalogue": "Merge grant programme overview into /kursus; redirect /program-geran to /kursus#program-geran.",
+    "grant_detail_pages": [
+      "/kursus/elektrik",
+      "/kursus/solar",
+      "/kursus/kimpalan",
+      "/kursus/kimpalan-plastik",
+      "/kursus/scaffolding"
     ],
-    "certificate_presentation": "Three official document facsimiles on imagegen decorative backdrop, full image and original PDF links; SSM summary separately.",
-    "gallery": "Six enhanced source photos; automatic carousel with pause, next/previous, keyboard access and reduced-motion preference.",
-    "typography": "Inter variable; body 18px mobile, 28px at1440 and39px at2560.",
-    "google_form_verified": "Form currently lists Sarawak/Kedah programmes; client explicitly reconfirmed using the same Google Form on17November2026. Keep WhatsApp OR Google Form options.",
-    "user_layout_corrections": "15 marked sections rebuilt; all18 approved routes compared at1440,2560,768,390."
+    "grant_availability": "No current programme/intake offered; show clear future-intake enquiry state.",
+    "mou_documents": {
+      "IKBN Pekan": "/documents/mou-ikbn.pdf",
+      "ADTEC": "/documents/mou-adtec.pdf"
+    },
+    "gallery": "Auto-rotate by default; remove visible Jeda galeri control; retain previous/next arrows, hover/focus pause and reduced-motion support.",
+    "shirt_branding": [
+      "hero-contact",
+      "hero-grade-2",
+      "hero-courses",
+      "course-grade-2"
+    ],
+    "archive_posters": [
+      "2024-02-26",
+      "2025-07-27",
+      "2026-07-06"
+    ],
+    "archive_photo_provenance": "Do not attribute reused historical cohort photos to later advertised intakes. Use exact original promotional posters.",
+    "registration": "User reconfirmed existing Google Form for both December courses; WhatsApp or Google Form choice remains.",
+    "visual_corrections": [
+      "About title underline aligned",
+      "MOU timeline endpoint line",
+      "Matching navy fee boxes for both grades",
+      "Archive spacing and button gaps",
+      "Distinct Gred 2 catalogue artwork"
+    ]
   }
 }

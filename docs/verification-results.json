@@ -1,16 +1,23 @@
 {
   "date": "2026-11-17",
   "browser": {
-    "pages": 21,
+    "pages": 25,
     "widths": [
       390,
       768,
       1440,
       2560
     ],
-    "captures": 84,
+    "captures": 100,
     "overflowFailures": 0,
-    "brokenImageFailures": 0
+    "brokenImageFailures": 0,
+    "archiveButtonGapPx": {
+      "phone": 18,
+      "tablet": 19,
+      "desktop": 28,
+      "largeDesktop": 39
+    },
+    "visualReview": "All25pages reviewed in contact sheets at four widths; key changed pages inspected full size."
   },
   "functionalPassed": [
     "mobile navigation",
@@ -34,5 +41,18 @@
     "Imagegen numeric model not selectable",
     "Privacy handling terms remain client review draft"
   ],
-  "googleForm": "Client explicitly reconfirmed same link17November2026"
+  "googleForm": "Client explicitly reconfirmed same link17November2026",
+  "revisionFunctionalPassed": [
+    "all25routes HTTP200",
+    "all5grantcards open matching empty-state detail",
+    "old /program-geran redirect",
+    "programme-specific enquiry prefill and WhatsApp preview",
+    "bothMOU PDFs HTTP200 and PDF signature",
+    "galleryauto-rotation withoutpausebutton",
+    "galleryprevious/next",
+    "archiveyearfilter",
+    "mobilemenu",
+    "finalnavigation withoutconsoleerrors"
+  ],
+  "socialFetchLimit": "Fresh Facebook/TikTok retrieval blocked; verified previously downloaded original2024/2025/2026posters used. No unverified intake-specific cohort photos added."
 }

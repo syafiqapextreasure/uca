@@ -26,9 +26,9 @@ Connect this repository to Workers Builds. Build command: `npm run build`. Deplo
 ## Verification —17 November 2026
 
 - Build and local link/asset checks pass across 21 routes.
-- Browser automation works. All 21 pages captured at 390,768,1440 and 2560 px:84 checks, no horizontal overflow or broken image findings.
+- Browser automation works. All 25 pages captured at 390,768,1440 and 2560 px:100 checks, no horizontal overflow or broken image findings.
 - All 18 approved references compared at equal displayed widths. Page-specific structures, responsive icons, fees, partner strips, catalogue cards, schedule rows, archive filters and registration panels rebuilt.
-- Browser-tested: mobile navigation, required fields, course/date selection, officer destination, formatted WhatsApp review, copy-message, editing, Back/Forward, gallery next/pause/lightbox and archive year/type filters.
+- Browser-tested: mobile navigation, required fields, course/date selection, officer destination, formatted WhatsApp review, copy-message, editing, Back/Forward, gallery previous/next, automatic rotation and lightbox and archive year/type filters.
 - Local HTTP checks confirm normal routes, .html redirects and missing-page 404 status.
 - Reduced-motion support implemented in CSS/JS; browser preference emulation was not available.
 - Local Wrangler runtime remains unverified because this Windows environment rejects child-process startup (spawn EPERM). Standard static build succeeds. Validate the first Cloudflare deployment in its own environment.
@@ -44,3 +44,9 @@ Full-size generated assets use lossless WebP; responsive variants reduce dimensi
 ## Search and launch handoff
 
 `docs/seo-research.json` records keyword/competitor research. HTML contains page titles, descriptions and organisation schema. Set SITE_URL before deployment. Privacy page retains its marked draft paragraph pending the operator's final handling/retention terms.
+
+## Revision 2.2 — 17 November 2026
+
+Kursus now includes the grant programme grid, process and history. The old /program-geran route redirects to /kursus#program-geran. Five individual programme pages show no current intake. Both partners link to their original MOU PDFs. Archive pages use the verified original 2024, 2025 and July2026 posters instead of empty panels or unrelated cohort heroes. Gallery auto-rotates with arrows; the visible pause button is removed. Four illustrative photo assets now carry the supplied UCA shirt logo, including responsive versions.
+
+Fresh social retrieval was blocked. Existing source downloads were checked against their post dates; no new date-specific cohort photos are asserted. Source records are in docs/archive-poster-manifest.json. Registration retains the client-confirmed Google Form.

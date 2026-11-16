@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {pages} from '../src/pages.mjs';
-fs.mkdirSync('dist',{recursive:true});fs.cpSync('public','dist',{recursive:true});
+fs.mkdirSync('dist',{recursive:true});
+// Remove the obsolete standalone page; _redirects preserves incoming links.
+if(fs.existsSync('dist/program-geran.html'))fs.unlinkSync('dist/program-geran.html');fs.cpSync('public','dist',{recursive:true});
 const font='node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2';
 if(fs.existsSync(font))fs.copyFileSync(font,'dist/assets/inter.woff2');
 const origin=process.env.SITE_URL?.replace(/\/$/,'');
