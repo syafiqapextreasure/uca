@@ -33,3 +33,16 @@ body[data-page='/404'] .breadcrumbs{display:none}body[data-page='/404'] main{bac
 .partner-visual h2.slash-label:before{display:none}
 @media(min-width:701px) and (max-width:1000px){.certificate-gallery .three{grid-template-columns:repeat(3,minmax(0,1fr))}.certificate-art img{height:270px}.certificate-card>div{padding:.7em}.certificate-card h3{font-size:1.25em}.certificate-card .text-link{flex-wrap:wrap}}
 @media(min-width:521px) and (max-width:1000px){.grant-next .three>article:last-child{grid-column:1/-1}}
+
+/* Keep mobile process arrows and their steps on one shared centre line. */
+@media(max-width:800px){
+ .process{flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:20px}
+ .process>div,.grant-catalogue .process>div{flex:0 0 auto;width:100%;justify-content:center;text-align:center}
+ .process>div>div{flex:0 1 auto}
+ .process>.icon{flex:none;align-self:center;transform:rotate(90deg);width:1.4em;height:1.4em}
+ .grant-strip{display:grid;grid-template-columns:auto minmax(0,1fr);justify-content:start;align-items:center;column-gap:12px;row-gap:16px;padding:20px}
+ .grant-strip>.icon{width:1.7em;height:1.7em}
+ .grant-strip>strong{font-size:1em;line-height:1.25}
+ .grant-strip>span,.grant-strip>.button{grid-column:1/-1;max-width:none;width:100%}
+ .grant-strip>span{font-size:.9em}
+}
